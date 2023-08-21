@@ -1,0 +1,15 @@
+app:
+  name: ryanj-poi-gateway-app
+  namespace: ryanj
+  cluster: .apps.j0i9yf30.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-atl/ryanj-gateway
+  org: rhdh-atl
+  name: ryanj-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: ryanj/poi-gateway-app
+  tag: latest
